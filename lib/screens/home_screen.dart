@@ -125,41 +125,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                           ),
                         )
-                    // ListTile(
-                    //   title: Text(todoProvider.todos[index].title),
-                    //   subtitle: Text(todoProvider.todos[index].description),
-                    //   leading: Checkbox(
-                    //     value: todoProvider.todos[index].isDone,
-                    //     onChanged: (value) {
-                    //       setState(() {
-                    //         todoProvider.todos[index].isDone = value!;
-                    //         todoProvider.updateTodo(
-                    //           index,
-                    //           todoProvider.todos[index],
-                    //         );
-                    //       });
-                    //     },
-                    //   ),
-                    //   trailing: Row(
-                    //     mainAxisSize: MainAxisSize.min,
-                    //     children: [
-                    // Text(
-                    //   "${todoProvider.todos[index].createdAt.day}-${todoProvider.todos[index].createdAt.month}-${todoProvider.todos[index].createdAt.year}",
-                    // ),
-                    // IconButton(
-                    //   icon: const Icon(
-                    //     Icons.delete,
-                    //     color: Colors.red,
-                    //   ),
-                    //   onPressed: () {
-                    //     setState(() {
-                    //       todoProvider.removeTodo(index);
-                    //     });
-                    //   },
-                    // ),
-                    //     ],
-                    //   ),
-                    // ),
+                   
                     );
           },
         ));

@@ -4,7 +4,8 @@ import 'package:note_keep/models/todo_model.dart';
 
 class TodoProvider extends ChangeNotifier {
   List<TodoModel> _todos = [];
-  List<TodoModel> get todos => _todos;
+  List<TodoModel> get todos =>
+      _todos; //get todos make the copy of private list and make available to use
 
   void addTodo(TodoModel todo) {
     _todos.add(todo);
